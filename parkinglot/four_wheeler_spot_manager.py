@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 from parking_spot_manager import ParkingSpotManager
 from four_wheeler_spot import FourWheelerSpot
+=======
+from parkinglot.parking_spot_manager import ParkingSpotManager
+from parkinglot.four_wheeler_spot import FourWheelerSpot
+>>>>>>> 06d1a22be2ecacc19efbd02e7cb968d88d995cdf
 class FourWheelerSpotManager(ParkingSpotManager):
     """
     Specialized manager for FourWheeler spots.

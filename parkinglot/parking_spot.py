@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 from vehicle import Vehicle
+=======
+from parkinglot.vehicle import Vehicle
+>>>>>>> 06d1a22be2ecacc19efbd02e7cb968d88d995cdf
 class ParkingSpot:
     def __init__(self, spot_id, size):
         self.spot_id = spot_id

@@ -1,11 +1,20 @@
 from typing import Optional, List
 from datetime import datetime
+<<<<<<< HEAD
 from parking_spot_manager_factory import ParkingSpotManagerFactory
 from parking_spot import ParkingSpot
 from vehicle import Vehicle
 from parking_spot_manager import ParkingSpotManager
 
 from ticket import Ticket
+=======
+from parkinglot.parking_spot_manager_factory import ParkingSpotManagerFactory
+from parkinglot.parking_spot import ParkingSpot
+from parkinglot.vehicle import Vehicle
+from parkinglot.parking_spot_manager import ParkingSpotManager
+
+from parkinglot.ticket import Ticket
+>>>>>>> 06d1a22be2ecacc19efbd02e7cb968d88d995cdf
 class EntranceGate:
     def __init__(self, gate_id):
         self.gate_id = gate_id
