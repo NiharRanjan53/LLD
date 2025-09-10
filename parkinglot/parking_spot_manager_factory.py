@@ -1,14 +1,9 @@
 from threading import Lock
 from typing import Dict, Optional
-<<<<<<< HEAD
 from two_wheeler_spot_manager import TwoWheelerSpotManager
 from four_wheeler_spot_manager import FourWheelerSpotManager
 from parking_spot_manager import ParkingSpotManager
-=======
-from parkinglot.two_wheeler_spot_manager import TwoWheelerSpotManager
-from parkinglot.four_wheeler_spot_manager import FourWheelerSpotManager
-from parkinglot.parking_spot_manager import ParkingSpotManager
->>>>>>> 06d1a22be2ecacc19efbd02e7cb968d88d995cdf
+
 
 class ParkingSpotManagerFactory:
     """
@@ -31,19 +26,11 @@ class ParkingSpotManagerFactory:
 
             if not create_if_missing:
                 raise KeyError(f"No manager for spot_type={spot_type}")
-<<<<<<< HEAD
     
             # create and register
             if spot_type == "TwoWheeler":
                 manager = TwoWheelerSpotManager(**kwargs)
             elif spot_type == "FourWheeler":
-=======
-
-            # create and register
-            if spot_type == "two":
-                manager = TwoWheelerSpotManager(**kwargs)
-            elif spot_type == "four":
->>>>>>> 06d1a22be2ecacc19efbd02e7cb968d88d995cdf
                 manager = FourWheelerSpotManager(**kwargs)
             else:
                 raise ValueError("unsupported spot type")

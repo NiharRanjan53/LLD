@@ -1,12 +1,7 @@
 from typing import List, Dict, Optional
 from threading import Lock
-<<<<<<< HEAD
 from vehicle import Vehicle
 from parking_spot import ParkingSpot
-=======
-from parkinglot.vehicle import Vehicle
-from parkinglot.parking_spot import ParkingSpot
->>>>>>> 06d1a22be2ecacc19efbd02e7cb968d88d995cdf
 
 
 class ParkingSpotManager:

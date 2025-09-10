@@ -1,11 +1,7 @@
 from typing import List
-<<<<<<< HEAD
 from parking_spot_manager import ParkingSpotManager
 from two_wheeler_spot import TwoWheelerSpot
-=======
-from parkinglot.parking_spot_manager import ParkingSpotManager
-from parkinglot.two_wheeler_spot import TwoWheelerSpot
->>>>>>> 06d1a22be2ecacc19efbd02e7cb968d88d995cdf
+
 
 class TwoWheelerSpotManager(ParkingSpotManager):
     """
