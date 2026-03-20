@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Project/fastapi_and_react"
+		},
+		{
+			"path": "../../../../DataStructures"
+		},
+		{
+			"path": "C:/Users/nihar/OneDrive/Desktop/event_management_app"
+		},
+		{
+			"path": "C:/Users/nihar/OneDrive/Desktop/Java Backend/Elastic_Search"
+		},
+		{
+			"path": "../../Design_Patterns/Creational_Design_Patterns/Factory_Design_Pattern"
+		},
+		{
+			"path": "../../Design_Patterns/Creational_Design_Patterns/Abstract_Factory_Pattern"
+		},
+		{
+			"path": "../../Design_Patterns/Creational_Design_Patterns/Builder_Design_Pattern"
+		},
+		{
+			"path": "C:/Users/nihar/OneDrive/Desktop/smart_event_111"
+		},
+		{
+			"path": "../../Design_Patterns/Creational_Design_Patterns/Singleton_Design_Pattern"
+		},
+		{
+			"path": "../../Design_Patterns/Creational_Design_Patterns/Prototype_Design_Pattern"
+		},
+		{
+			"path": "../../Design_Patterns/Behavioral_Design_Patterns/Startegy_Design_Pattern"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Zomato_Food_Delivery"
+		}
+	],
+	"settings": {}
+}
